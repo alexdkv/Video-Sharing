@@ -1,0 +1,114 @@
+/* #videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.video-player{
+    background-color: black;
+    width: 100%;
+}
+
+#video-wrapper{
+    position: relative;
+}
+
+#waiting{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+
+} */
+
+
+
+/* body {
+    background: url("images/fitness-main.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+} */
+
+
+/* .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* .video-player {
+    width: 640px;
+    height: 480px;
+    background: black;
+    border: 3px solid white;
+    border-radius: 12px;
+    object-fit: cover;
+} */
+
+
+body {
+    background: url("images/fitness-main.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+
+.main-layout {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+
+.calls-list {
+    width: 220px;
+    background: rgba(0, 0, 0, 0.7);
+    border-right: 2px solid rgba(255,255,255,0.2);
+}
+.calls-list h4 {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.calls-list button {
+    text-align: center;
+    width: -webkit-fill-available;
+    margin: 10px;
+}
+
+
+.video-player {
+    width: 640px;
+    height: 480px;
+    background: black;
+    border: 3px solid white;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+.waiting-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 193, 7, 0.9);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: none;
+}
+
+
+#user-name {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
