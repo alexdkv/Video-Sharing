@@ -5,7 +5,8 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     const socket = io.connect(
         //'https://192.168.0.151:8181/', 
-        'https://172.20.10.3:8181/',
+        'https://172.20.10.3:8181/', // Comment for local testing
+        //const socket = io.connect('https://localhost:8181/',{ // Uncomment for local testing
         {
         auth: { userName, password }
     });
